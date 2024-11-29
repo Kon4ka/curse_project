@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+results/test_with_gpu/out_test.mp4 filter=lfs diff=lfs merge=lfs -text
+results/test_without_gpu/out_test.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/test2.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/test.mp4 filter=lfs diff=lfs merge=lfs -text
