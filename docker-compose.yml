@@ -1,0 +1,10 @@
+services:
+  ml:
+    build: .
+    container_name: ml
+    volumes:
+      - ./results:/usr/shr/app/results
+      - ./videos:/usr/shr/app/videos
+    ports:
+      - "8000:8000"
+      - "5678:5678" 
